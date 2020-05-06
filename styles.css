@@ -1,0 +1,56 @@
+#img-caption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+#image {
+  width: 100%;
+height: auto;
+max-width: 225px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+body{
+  background: gray;
+}
+#button {
+ padding: 0px;
+ }
+
+#button li {
+  display: inline;
+ font-family: Arial;
+ font-size: 11px;
+ text-decoration: none;
+ float: center;
+ padding: 10px;
+ background-color: #2175bc;
+ color: #fff;
+  border: 1px solid black;
+ 
+ }
+#button li:hover {
+ background-color: #2586d7;
+ margin-top: -2;
+ }
+#img-div{
+   border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+#tribute-info {
+  font: italic smaller sans-serif;
+  font-weight: bold; 
+}
+#tribute-link {
+  font: italic smaller sans-serif;
+  font-weight: bold;
+}
